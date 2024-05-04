@@ -1,0 +1,7 @@
+{
+  "name": "Nike-Application-Design",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
