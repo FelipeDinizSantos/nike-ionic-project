@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.content-container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0;
+    padding: 0;
+}
+
+.content-title{
+    font-family: 'Raleway';
+    font-size: 40px;
+    color: #144273;
+    font-weight: 900;
+}
+
+.content-sub-title{
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: -20px;
+}
+
+.content-paragraph{
+    color: white;
+    text-align: justify;
+    margin-top: -2px;
+}

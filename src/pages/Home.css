@@ -1,0 +1,19 @@
+.nike-icon{
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    width: 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lemonShoes{
+    margin-top: 20px;
+    margin-bottom: -45px;
+    width: 320px;
+}

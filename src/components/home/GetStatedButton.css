@@ -1,0 +1,20 @@
+.getStartedBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: #F2C94C;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 100px;
+    margin-left: 150px;
+    gap: 15px;
+    box-shadow: #00000057 0px 5px 15px;
+}
+
+.getStartedBtn img{
+    width: 17px;
+    height: 30px;
+}

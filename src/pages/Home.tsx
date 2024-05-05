@@ -1,24 +1,19 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import Content from '../components/home/Content';
+import GetStartedButton from '../components/home/GetStatedButton';
 import './Home.css';
 
 const Home: React.FC = () => {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
-    </IonPage>
+    <div className='container'>
+      <div>
+        <img src='/img/nike.png' alt='Logo da Nike' className='nike-icon' />
+      </div>
+      <div>
+        <img src='/img/lemon-shoes.png' alt='Tênis Cor Limão' className='lemonShoes' />
+      </div>
+      <Content></Content>
+      <GetStartedButton></GetStartedButton>
+    </div>    
   );
 };
 
