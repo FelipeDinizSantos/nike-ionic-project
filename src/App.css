@@ -3,6 +3,7 @@
 }
 
 :root{
-    --ion-background-color: #2EAD8A;
+    --ion-background-color: linear-gradient(211deg, rgba(17, 153, 142, 1) 0%, rgba(56, 239, 125, 1) 100%);
+    --ion-padding: 0 30px;
 }
 
