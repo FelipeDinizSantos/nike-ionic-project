@@ -18,7 +18,7 @@
 }
 
 .content-sub-title{
-    font-family: 'Istok Web';
+    font-family: "Holtwood One SC";
     color: #fff;
     margin-top: -5px;
     font-size: 40px;
@@ -26,6 +26,7 @@
 }
 
 .content-paragraph{
+    font-family: 'Istok Web';
     margin-top: -.5px;
     color: white;
     text-align: justify;

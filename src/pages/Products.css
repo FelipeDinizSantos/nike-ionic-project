@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    justify-content: space-between;
+}
+
+.menu-burger{
+    margin: 10px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.nike-logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.profile-user{
+    width: 45px;
+    cursor: pointer;
+}
